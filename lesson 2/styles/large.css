@@ -1,0 +1,15 @@
+
+@media screen and (min-width: 64em) {
+
+    .cards{
+    column-gap: 50px;
+    row-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%
+    }
+  
+    .card:last-child {
+      grid-area: auto;
+    }
+  
+  }
