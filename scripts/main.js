@@ -1,7 +1,7 @@
 let date = new Date();
 let year = date.getFullYear();
 
-document.querySelector('h2').innerHTML = '&copy;' + year + '.:|:. Jesus Del Barrio .:|:. Idaho';
+document.querySelector('#upd').innerHTML = '&copy;' + year + '.:|:. Jesus Del Barrio .:|:. Idaho';
 
 let currentdate = document.lastModified;
 
