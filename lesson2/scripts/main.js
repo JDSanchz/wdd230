@@ -5,4 +5,4 @@ document.querySelector('#upd').innerHTML = '&copy;' + year + '.:|:. Jesus Del Ba
 
 let currentdate = document.lastModified;
 
-document.querySelector('updates').textContent = `Last Updated: ${currentdate}`;
+document.querySelector('#updates').textContent = `Last Updated: ${currentdate}`;
