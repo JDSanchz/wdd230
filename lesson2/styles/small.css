@@ -1,13 +1,13 @@
 
-@media screen and (max-width: 39.9375em) {
+@media screen and (min-width: 20em) {
 
-    .cards {
-      grid-template-columns: 1fr;
-      row-gap: 100px;
-      width: 98%;
-      margin-right: auto;
-      margin-left: auto;
-      padding: 1rem 0;
-    }
-  
+  .card-view {
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem 0;
   }
+
+}
