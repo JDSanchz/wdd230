@@ -27,7 +27,7 @@ a {
 header, footer {
   padding: 1rem 0;
   text-align: center;
-  background-color:  #69DC9E;
+  background-color:  #246639;
   color: white;
 }
 
@@ -38,10 +38,12 @@ h1, h2, h3, p {
 
 h1 {
   margin-bottom: 10px;
+  background-color:  #246639;
 }
 
 h2{
   border-radius: 25px 25px 55px 0px ;
+  background-color:  #246639;
 }
 
 .name {
