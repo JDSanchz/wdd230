@@ -52,7 +52,7 @@
         grid-template-columns: 1fr;
     }
     #t-audience h1, #t-audience h2 {
-        
+        grid-column: 1;
         font-size: 1.1em;
         
     }
