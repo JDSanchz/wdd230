@@ -1,0 +1,131 @@
+@media only screen and (max-width: 50em){
+
+
+    header {
+        grid-template-columns: 180px auto;
+        
+    }
+    
+    #nav-logo {
+        max-width: 150px;
+        max-height: 150px;
+        
+    }
+    
+    nav a {
+        font-size: 1em;
+    
+        
+    }
+    
+    #home-grid {
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    
+    #home-grid h1, #home-grid h2 {
+        grid-column: 2/3;
+        font-size: 1.4em;
+        
+    }
+    
+    #home-grid p{
+        grid-column: 2/3;
+        font-size: 1.1em;
+    }
+    
+    #home-grid img{
+        grid-column: 2/3;
+        width: 400px;
+        height: auto;
+
+    }
+
+    
+    footer p, a {
+        font-size: 1em;
+    }
+    h1{
+        padding-top: 30px;
+    }
+    /*TARGET-AUDIENCE.HTML*/
+    #t-audience {
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    #t-audience h1, #t-audience h2 {
+        grid-column: 2/3;
+        font-size: 1.4em;
+        
+    }
+    
+    #t-audience p{
+        grid-column: 1/4;
+        font-size: 1.1em;
+        line-height: 28px;
+    }
+    
+    section img{
+        
+        max-width: 300px;
+        max-height: 220px;
+        
+    }
+    #persona1, #persona2, article {
+        grid-column: 1/4;
+        
+    }
+    .desc {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    hr {
+        border-top: 2px solid #ffae00  ;
+        grid-column: 2/3;
+        
+    }
+
+    /*DESIGN.HTML*/
+
+    #design-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    
+    #design-grid h1, #design-grid h2, #design-grid h3, #design-grid h4, #design-grid h5 {
+        grid-column: 1/4;
+        
+    }
+    
+    #design-grid p{
+        grid-column: 1/4;
+        font-size: 1.1em;
+        line-height: 25px;
+        padding: 20px 30px;
+        
+    }
+    
+    #design-grid h5 {
+        font-size: 1.2em;
+    }
+    
+    
+    #design-grid table{
+        grid-column: 1/4;
+        font-size: 1.1em;
+        padding: 0 20px;
+    }
+    #bkp {
+        grid-column: 1/4;
+        background-color:  #994a00;
+        color: #ffffff;
+        border-radius: 25px;
+        margin:30px;
+    }
+    #bkp p {
+        padding:18px;
+    }
+    
+    
+
+}

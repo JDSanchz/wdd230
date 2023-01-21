@@ -1,0 +1,97 @@
+@media only screen and (max-width: 35em){
+    header, nav {
+        display: flex;
+        flex-direction: column;
+    }
+    header a {
+        margin: auto;
+    }
+    body{
+        min-height: 100%;
+    }
+    nav a {
+        padding: 15px 0;
+        font-size: .8em;
+    }
+
+    #home-grid {
+        display:grid;
+    }
+    
+    #home-grid h1, #home-grid h2 {
+        font-size: 1.1em;
+    }
+    #home-grid p{
+        font-size: .9em;
+        padding: 0 40px;
+    }
+    
+    #home-grid img{
+        width: 250px;
+        height: auto;
+    }
+    footer {
+        height: 50px;
+        margin:auto;
+        flex-direction: column;
+        font-size: .8em;
+    }
+    footer p {
+        font-size: .8em;
+        padding: 0;
+        margin:0;
+    }
+
+    h1{
+        padding-top: 30px;
+    }
+    
+
+    /*TARGET-AUDIENCE.HTML*/
+    #t-audience {
+        grid-template-columns: 1fr;
+    }
+    #t-audience h1, #t-audience h2 {
+        
+        font-size: 1.1em;
+        
+    }
+        
+    #t-audience p{
+        
+        font-size: .8em;
+        line-height: 20px;
+        padding: 0 40px;
+    }
+    
+    section img{
+        max-width: 200px;
+        max-height: 140px;
+        
+    }
+    
+
+    /*PAGE 3*/
+    #design-grid {
+        grid-template-columns: 1fr ;
+    }
+    
+    
+    #design-grid p{
+        font-size: .8em;
+        line-height: 20px;
+        padding: 20px 30px;
+        
+    }
+    
+    #design-grid h5 {
+        font-size: 1em;
+    }
+    
+    
+    #design-grid table{
+        
+        font-size: 1em;
+        
+    }
+}
