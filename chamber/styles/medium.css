@@ -27,6 +27,7 @@
     }
     .media img{
         width: 40px;
+
     }
     .date{
         grid-row: 2/3;
@@ -40,6 +41,9 @@
     }
     .nav-item {
         margin: 2.5rem 0;
+    }
+    .nav-logo img{
+        margin-top: 8px;
     }
 
     .hamburger {

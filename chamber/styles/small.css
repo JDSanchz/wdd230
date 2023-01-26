@@ -64,5 +64,14 @@
     footer #location{
         margin:90px 0px 40px;
     }
-
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    main div{
+        height:100px;
+    }
+    main #join{
+        display: none;
+    }
 }
