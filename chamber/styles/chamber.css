@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
-@media screen and (min-width: 20em) {
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +16,9 @@ html {
 li {
     list-style: none;
 }
-
+#logo{
+    width: 300px;
+}
 a {
     text-decoration: none;
 }
@@ -26,14 +27,16 @@ a {
 }
 
 .navbar {
-    height: 70px;
+    height: 130px;
 }
 
 .navbar {
-    display: flex;
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 2;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 1.5rem;
+    padding: 1rem 0rem 0rem;
 }
 .hamburger {
     display: none;
@@ -46,12 +49,14 @@ a {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #101010;
+    background-color: #4f23ff;
 }
 .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    grid-column: 2/4;
+    grid-row: 1/2;
 }
 
 .nav-item {
@@ -59,20 +64,37 @@ a {
 }
 
 .nav-link{
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     font-weight: 400;
     color: #475569;
 }
 
 .nav-link:hover{
-    color: #cc5200;
+    color: #4c00ff;
 }
 
 .nav-logo {
-    font-size: 2.1rem;
     font-weight: 500;
-    color: #cc5200;
+}
+.media{
+    grid-column: 4/5;
+    margin-right:40px;
 }
 
-
+.media img{
+    width: 30px;
+}
+.date{
+    grid-row: 2/3;
+    grid-column: 1/5;
+    text-align: center;
+    background-color: #4c00ff;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 5px 0;
+}
+.date p {
+    font-size: 14px;
+    margin:0;
+    color: #E2E8F0;
 }

@@ -19,3 +19,6 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+
+date = new Date();
+document.querySelector('#today').innerHTML=date;
