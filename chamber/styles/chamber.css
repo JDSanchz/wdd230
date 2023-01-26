@@ -19,6 +19,9 @@ li {
 #logo{
     width: 300px;
 }
+main {
+    min-height: 615px;
+}
 a {
     text-decoration: none;
 }
@@ -94,7 +97,34 @@ a {
     padding: 5px 0;
 }
 .date p {
-    font-size: 14px;
+    font-size: 18px;
     margin:0;
     color: #E2E8F0;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 5;
+    grid-template-rows: 2;
+    background-color: #4c00ff;
+    height: 100px;
+    padding: 5px 15px;
+}
+footer p,a{
+    font-size: 20px;
+    color: white;
+}
+
+footer h4 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: center;
+}
+footer #info{
+    grid-column:1/5;
+    grid-row: 2/3;
+}
+footer img{
+grid-column: 1/2;
+margin-left: 60px;
 }

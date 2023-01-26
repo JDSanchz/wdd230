@@ -20,5 +20,15 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
+const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
 date = new Date();
-document.querySelector('#today').innerHTML=date;
+document.querySelector('#today').innerHTML= weekday[date.getDay()] + ", " + date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear();
+
+
+function displayfooter(){
+let fyear = new Date().getFullYear();
+let currentdate = document.lastModified;
+document.querySelector('#last-bar').textContent =  '©' + fyear +"  Rexburg Chamber  " + "|  Jesus Del Barrio  "+"  | WDD 230 "+`|      Last Modification: ${currentdate}`;
+}
