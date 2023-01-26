@@ -55,5 +55,14 @@
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        align-items: center;
+    }
+    footer #location{
+        margin:90px 0px 40px;
+    }
 
 }
