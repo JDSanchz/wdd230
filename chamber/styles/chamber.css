@@ -95,9 +95,9 @@ a {
     grid-column: 1/5;
     text-align: center;
     background-color: #4c00ff;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding: 5px 0;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 5px 0px;
 }
 .date p {
     font-size: 18px;
