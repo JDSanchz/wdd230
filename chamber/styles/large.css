@@ -174,9 +174,12 @@ main div{
 #spot{
     grid-column: 4/5;
     grid-row: 1/4;
+    display: flex;
+    flex-direction: column;
 }
 #spot div{
     background-color: #c2b6e2; 
+    height: 33%;
 }
 #hero {
     grid-column: 2/4;
