@@ -17,8 +17,8 @@
     }
     .navbar{
         display:grid;
-        grid-template-columns: 3;
-        grid-template-rows: 2;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         height: 150px
     }
     .media{
@@ -74,8 +74,8 @@
         margin-top: 50px;
         padding: 10px 30px;
         display: grid;
-        grid-template-columns: 3;
-        grid-template-rows: 5;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(5,1fr);
     }
     main div{
         background-color: #ded2ff;

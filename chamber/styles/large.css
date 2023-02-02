@@ -35,7 +35,7 @@ a {
 
 .navbar {
     display: grid;
-    grid-template-columns: 5;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 2;
     justify-content: space-between;
     align-items: center;
@@ -84,7 +84,7 @@ a {
 }
 .media{
     grid-column: 4/5;
-    margin-right:40px;
+    margin-left:70px;
 }
 
 .media img{
