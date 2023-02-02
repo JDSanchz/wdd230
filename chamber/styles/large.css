@@ -36,7 +36,7 @@ a {
 .navbar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2;
+    grid-template-rows: 1fr 1fr;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0rem 0rem;
@@ -105,10 +105,11 @@ a {
     color: #E2E8F0;
 }
 
+#last-bar{padding-top: 40px;}
 footer{
     display: grid;
-    grid-template-columns: 5;
-    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: #4c00ff;
     height: 200px;
     padding: 10px 15px;
@@ -138,7 +139,7 @@ footer #pres{
     width: 500px;
     height: 30px;
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: auto auto;
 }
 footer #pres img{
     grid-column: 1/2;
