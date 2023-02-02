@@ -163,8 +163,8 @@ main{
     margin-top: 70px;
     padding: 20px 30px;
     display: grid;
-    grid-template-columns: 4;
-    grid-template-rows: 3;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 main div{
     background-color: #ded2ff;
