@@ -201,3 +201,43 @@ main div{
     grid-column: 2/4;
     grid-row: 3/4;
 }
+
+#banner {
+    text-align: center;
+    margin-top: 35px;
+    position: relative;
+    height: 120px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/7/75/Spori_Building%2C_BYU-Idaho%2C_Rexburg%2C_Idaho_%281133455096%29.jpg") no-repeat center/cover;
+  }
+
+  #banner p {
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    color:white;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 20px;
+    animation: move-text 10s linear infinite;
+  }
+
+  #banner::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  #4c00ff;;
+    opacity: 0.15;
+  }
+  
+  @keyframes move-text {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(640%);
+    }
+  }
