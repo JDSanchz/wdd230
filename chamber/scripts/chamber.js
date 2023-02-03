@@ -1,5 +1,16 @@
 
-
+async function getWeather() {
+    fetch('http://api.weatherapi.com/v1/current.json?key=b29e04a9ceb14fd2989173208230302&q=Rexburg&aqi=no')
+    .then(response => response.json())
+    .then(data => {
+        let temperature = data.current.temp_f;
+        document.getElementById('temperature').innerHTML = temperature + "°F";
+    })
+    .catch(error => console.error(error));
+  }
+  
+  getWeather();
+  
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
