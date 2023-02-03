@@ -213,12 +213,13 @@ main div{
   #banner p {
     font-size: 16px;
     position: absolute;
-    bottom: 0;
-    color:white;
+    bottom: -4px;
+    color:#4c00ff;
     padding: 10px;
     padding-right: 40px;
     padding-left: 20px;
-    animation: move-text 10s linear infinite;
+    animation: move-text 35s linear infinite;
+    z-index: 3;
   }
 
   #banner::before {
@@ -229,15 +230,25 @@ main div{
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:  #4c00ff;;
+    background-color:  #4c00ff;
     opacity: 0.15;
+    z-index:1
   }
   
   @keyframes move-text {
     from {
-      transform: translateX(0);
+      transform: translateX(-100%);
     }
     to {
       transform: translateX(640%);
     }
+  }
+
+  #botban {
+    position: absolute;
+    background-color: rgb(225, 255, 0);
+    height:30px;
+    width: 100%;
+    bottom:0;
+    z-index: 2;
   }
