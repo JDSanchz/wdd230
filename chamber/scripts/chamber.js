@@ -1,16 +1,4 @@
 
-async function getWeather() {
-    fetch('http://api.weatherapi.com/v1/current.json?key=b29e04a9ceb14fd2989173208230302&q=Rexburg&aqi=no')
-    .then(response => response.json())
-    .then(data => {
-        let temperature = data.current.temp_f;
-        document.getElementById('temperature').innerHTML = temperature + "°F";
-    })
-    .catch(error => console.error(error));
-  }
-  
-  getWeather();
-  
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -53,3 +41,24 @@ if (isTuesday) {
 }
 
 
+
+async function getWeather() {
+    fetch("http://api.weatherapi.com/v1/current.json?key=b29e04a9ceb14fd2989173208230302&q=Rexburg&aqi=no")
+    .then(response => response.json())
+    .then(data => {
+        const temperature = data.current.temp_f;
+        const temperatureElement = document.getElementById("temperature");
+        temperatureElement.innerHTML = temperature + "°F";
+    
+        const wimage = document.getElementById("wimage");
+        if (temperature < 15) {
+            wimage.src = "https://cdn3.iconfinder.com/data/icons/vibrant-weather/70/Colour_Thermometer_freezing-512.png";
+        } else if (temperature >= 32 && temperature < 42) {
+            wimage.src = "image2.png";
+        } else if (temperature >= 42) {
+            wimage.src = "image3.png";
+        }
+    });
+  }
+  
+  getWeather();
