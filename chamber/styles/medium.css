@@ -119,5 +119,26 @@
     #class3{
         display: none;
     }
+    
+  #banner p {
+    font-size: 16px;
+    position: absolute;
+    bottom: -4px;
+    color:#4c00ff;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 20px;
+    animation: move-text 12s linear infinite;
+    z-index: 3;
+  }
+    @keyframes move-text {
+        from {
+          transform: translateX(-100%);
+        }
+        to {
+          transform: translateX(160%);
+        }
+      }
+    
 
 }

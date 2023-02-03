@@ -160,8 +160,11 @@ footer #location p,a{
 }
 
 main{
-    margin-top: 70px;
-    padding: 20px 30px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -204,7 +207,7 @@ main div{
 
 #banner {
     text-align: center;
-    margin-top: 35px;
+    margin-top: 29px;
     position: relative;
     height: 120px;
     background: url("https://upload.wikimedia.org/wikipedia/commons/7/75/Spori_Building%2C_BYU-Idaho%2C_Rexburg%2C_Idaho_%281133455096%29.jpg") no-repeat center/cover;
@@ -240,7 +243,7 @@ main div{
       transform: translateX(-100%);
     }
     to {
-      transform: translateX(640%);
+      transform: translateX(300%);
     }
   }
 
