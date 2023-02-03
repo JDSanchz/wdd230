@@ -53,10 +53,10 @@ async function getWeather() {
         const wimage = document.getElementById("wimage");
         if (temperature < 15) {
             wimage.src = "https://cdn3.iconfinder.com/data/icons/vibrant-weather/70/Colour_Thermometer_freezing-512.png";
-        } else if (temperature >= 32 && temperature < 42) {
-            wimage.src = "image2.png";
+        } else if (temperature >= 16 && temperature < 42) {
+            wimage.src = "https://cdn1.iconfinder.com/data/icons/weather-455/300/wind_sunny-heat-cold-1024.png";
         } else if (temperature >= 42) {
-            wimage.src = "image3.png";
+            wimage.src = "https://cdn2.iconfinder.com/data/icons/weather-color-2/500/weather-01-512.png";
         }
     });
   }
