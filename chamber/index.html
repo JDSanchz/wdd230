@@ -51,7 +51,9 @@
 <main>
 <div id="hero"><p>Hero with site name and call to action</p></div>
 <div id="event"><p>Event</p></div>
-<div id="weather"><p>Weather</p></div>
+<div id="weather">
+    <p id="location">Loading location...</p>
+    <p id="temperature">Loading temperature...</p>></div>
 <div id="news"><p></p>News Release</div>
 <div id="spot">
     <div id="class1">Spotlight 1</div>
@@ -67,6 +69,23 @@
     <div id="location"><p>del20012@byui.edu</p><a target="_blank" href="https://goo.gl/maps/b9cWue3HdfcGafiA9">📍 Location Map</a></div>
     <div id="info">    <h4 id="last-bar">This is where my info goes</h4></div>
 </footer>
+<script>
+    // Get the weather data
+    const apiKey = "b29e04a9ceb14fd2989173208230302";
+    const location = "Rexburg";
+    const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=no`;
+  
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        const location = data.location.name;
+        const temperature = data.current.temp_c;
+  
+        // Update the HTML
+        document.querySelector("#location").innerHTML = location;
+        document.querySelector("#temperature").innerHTML = `${temperature} &#8451;`;
+      });
+  </script>
 <script src="scripts/chamber.js"></script>
 </body>
 </html>

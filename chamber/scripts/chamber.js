@@ -40,3 +40,5 @@ const isTuesday = today.getDay() === 5;
 if (isTuesday) {
   banner.style.display = "block";
 }
+
+
