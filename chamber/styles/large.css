@@ -85,11 +85,12 @@ a {
 }
 .media{
     grid-column: 4/5;
-    margin-left:70px;
+    margin-left:110px;
 }
 
 .media img{
-    width: 30px;
+    width: 40px;
+    margin-left: 10px;
 }
 .date{
     grid-row: 2/3;
@@ -218,7 +219,7 @@ main div{
     font-size: 16px;
     position: absolute;
     bottom: -4px;
-    color:#4c00ff;
+    color:#1f15b3;
     padding: 10px;
     padding-right: 40px;
     padding-left: 20px;
@@ -250,7 +251,7 @@ main div{
 
   #botban {
     position: absolute;
-    background-color: rgb(225, 255, 0);
+    background-color: #ffb700;
     height:30px;
     width: 100%;
     bottom:0;
@@ -269,7 +270,7 @@ main div{
     font-family: Arial, sans-serif;
     color: #333;
     border-radius: 20px;
-    background-color: rgb(232, 232, 232);
+    background-color: #cac7ff;
 }
 
 #wimage {
