@@ -168,6 +168,8 @@ main{
     padding-top: 0px;
     padding-bottom: 10px;
     display: grid;
+    column-gap:12px;
+    row-gap:12px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
@@ -181,30 +183,69 @@ main div{
     grid-row: 1/4;
     display: flex;
     flex-direction: column;
+    background-color: #1f15b3;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    border-radius: 20px;
 }
 #spot div{
     background-color: #c2b6e2; 
     height: 33%;
+    background-color: #4c00ff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    border-radius: 20px;
+    margin: 8px 8px 0px 8px;
+}
+#spot #class3{
+    margin: 8px 8px 8px 8px;
 }
 #hero {
     grid-column: 2/4;
     grid-row: 1/3;
+    background-color: #4c00ff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    border-radius: 20px;
 }
 #event{
     grid-column: 1/2;
     grid-row: 1/2;
+    background-color: #4c00ff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    border-radius: 20px;
 }
 #weather{
     grid-column: 1/2;
     grid-row: 2/3;
+    background-color:     #ffe9b3;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    border-radius: 20px;
 }
 #join{
     grid-column: 1/2;
     grid-row: 3/4;
+    background-color: #4c00ff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    border-radius: 20px;
 }
 #news{
     grid-column: 2/4;
     grid-row: 3/4;
+    background-color:     #ffe9b3;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+    border-radius: 20px;
 }
 
 #banner {
@@ -251,7 +292,7 @@ main div{
 
   #botban {
     position: absolute;
-    background-color: #ffb700;
+    background-color: #cac7ff;
     height:30px;
     width: 100%;
     bottom:0;
@@ -263,14 +304,6 @@ main div{
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 10px;
-}
-
-#weather {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    color: #333;
-    border-radius: 20px;
-    background-color: #cac7ff;
 }
 
 #wimage {
