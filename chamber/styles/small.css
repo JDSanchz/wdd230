@@ -19,7 +19,7 @@
     .navbar{
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 75% 25%;
         height: 120px
     }
     .media{
@@ -32,7 +32,11 @@
         grid-row: 2/3;
         grid-column: 1/4;
         text-align: center;
-        font-size: 1.5em;
+        font-size: 12px;
+    }
+    #today{
+        font-size: 16px;
+        padding-top: 0px;
     }
 
     #logo{
@@ -88,11 +92,19 @@
         display: none;
     }
     #banner {
+        height: 40px;
         text-align: center;
-        margin-top: 3px;
+    }
+        
+      #banner p {
+        font-size: 16px;
         position: relative;
-        height: 120px;
-        background: url("https://upload.wikimedia.org/wikipedia/commons/7/75/Spori_Building%2C_BYU-Idaho%2C_Rexburg%2C_Idaho_%281133455096%29.jpg") no-repeat center/cover;
+        padding: 7px 0 2px 0;
+        color:white;
+        animation: none;
+        z-index: 3;
+        bottom:0;
+        text-align: center;
       }
       #locat {
         font-size: 24px;
