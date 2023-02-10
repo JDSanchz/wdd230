@@ -8,14 +8,14 @@ async function getWeather() {
   
         const windSpeed = data.current.gust_mph;
         const windSpeedElement = document.getElementById("ws");
-        windSpeedElement.innerHTML = windSpeed + " mph";
+        windSpeedElement.innerHTML = "Wind Speed: " + windSpeed + " mph";
   
         const windChill = data.current.feelslike_f;
         const windChillElement = document.getElementById("wc");
         if (windChill === 0 || windChill === "N/A") {
           windChillElement.innerHTML = "N/A";
         } else {
-          windChillElement.innerHTML = windChill + "°F";
+          windChillElement.innerHTML = "Wind Chill: " + windChill + "°F";
         }
   
         const wimage = document.getElementById("wimage");

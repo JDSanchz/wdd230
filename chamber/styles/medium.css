@@ -87,7 +87,7 @@
         background-color: #ded2ff;
         margin: 2px;
         font-size: 20px;
-        height: 100px;
+        height: 400px;
     }
     #spot{
         grid-column: 1/4;
@@ -107,7 +107,6 @@
         background-color:#F7EBFF;
         text-align: center;
         font-family: Arial, sans-serif;
-        height: 390px;
     }
     #event_info{
         font-size: 20px;
@@ -117,8 +116,35 @@
     #weather{
         grid-column: 3/4;
         grid-row: 5/6;
+        background-color: #ffffff;
+        font-family: Arial, sans-serif;
+        color: black;
+        border-radius: 20px;
+        text-align: center;
+        position: relative;
     }
-    #join{
+    #weather #locat {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    #wimage {
+        width: 100px;
+        height: 100px;
+        margin: 20px 5px 15px 5px;
+    }
+    
+    #weather #temperature {
+        font-size: 50px;
+        font-weight: bold;
+        color: #1f74f5;
+    }
+    #weather p {
+        font-size: 30px;
+    }
+    .join{
         grid-column: 1/4;
         grid-row: 4/5;
     }
@@ -145,36 +171,8 @@
     bottom:0;
     text-align: center;
   }
+    
 
-    #locat {
-        font-size: 16px;
-        font-weight: bold;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    
-    #weather {
-        text-align: center;
-        position: relative;
-        font-family: Arial, sans-serif;
-        color: #333;
-        border-radius: 20px;
-        background-color: #cac7ff;
-    }
-    
-    #wimage {
-        width: 50px;
-        height: 50px;
-        margin: 0 auto 20px;
-    }
-    
-    #temperature {
-        font-size: 12px;
-        font-weight: bold;
-        position: absolute;
-        left:65%;
-        bottom: 20%;
-    }
 
 #hero {
         grid-column: 1/4;
@@ -191,7 +189,7 @@
     position: absolute;
     top: 80%;
     right: 45px;
-    background-color: #FF8460;
+    background-color: #FF458A;
 }
 #hero #wel {
     color: #ffffff;
