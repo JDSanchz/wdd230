@@ -166,22 +166,23 @@
         left:65%;
         bottom: 20%;
     }
+
+#hero {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+    }
+
 #joinus{
     height: 60px;
     width: 33%;
     border-radius: 12px;
     position: absolute;
-    bottom: 4px;
-    right: 3%;
+    top: 80%;
+    right: 45px;
     background-color: #ff679c;
-}
-
-#hero {
-    grid-column: 1/4;
-    grid-row: 1/2;
-    height: 400px;
-    position: relative;
-    overflow: hidden;
 }
 #hero #wel {
     color: #ffffff;

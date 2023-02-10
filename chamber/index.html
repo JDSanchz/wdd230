@@ -17,7 +17,7 @@
 <body>
     <header class="header">
         <nav class="navbar" id="navi">
-            <a href="#" class="nav-logo"><img id="logo" alt="Rexburg Chamber Logo Full Version" src="images/Rexburg-logos_transparent.png"></a>
+            <a href="#" class="nav-logo"><img id="logo" alt="Rexburg Chamber Logo Full Version" src="images/Rexburg-logos_transparent.webp"></a>
             <div class ="media">
                 <a href="https://www.linkedin.com/in/jesusdelbarrios/" target="_blank"><img onload="displayfooter()" src="http://cdn.onlinewebfonts.com/svg/img_24873.png" alt="Linkedin Logo"></a>
                 <a href="https://github.com/JDSanchz" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github Logo"></a>
@@ -50,9 +50,12 @@
   </div>
 <main>
 <div id="hero">
-    <img src="images/wdd230-org900.jpg"
-    
-    />
+    <img src="images/wdd230-org400.jpg" 
+    srcset="images/wdd230-org400.jpg 400w, 
+            images/wdd230-org900.jpg 900w, 
+            images/wdd230-org1200.jpg 1200w" 
+            sizes="(max-width: 900px) 900px, 1200px"
+    alt="People from our chamber">
     <p id="wel">Welcome to Rexburg</p><div id="joinus"><p>Join Us!</p></div></div>
 <div id="event"><h4>Upcoming Events</h4>
     <img src="./images/int.jpg" alt="People in an interview"/>
