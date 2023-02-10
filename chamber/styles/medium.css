@@ -104,7 +104,16 @@
     #event{
         grid-column: 1/3;
         grid-row: 5/6;
+        background-color:#F7EBFF;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        height: 390px;
     }
+    #event_info{
+        font-size: 20px;
+        padding:6px 40px;
+        text-align: center;
+        }
     #weather{
         grid-column: 3/4;
         grid-row: 5/6;
@@ -182,7 +191,7 @@
     position: absolute;
     top: 80%;
     right: 45px;
-    background-color: #ff679c;
+    background-color: #FF8460;
 }
 #hero #wel {
     color: #ffffff;
