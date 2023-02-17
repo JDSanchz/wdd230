@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lazy Loading Images</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Lazy Loading Images</h1>
+            <picture>
+                <source media="(max-width: 768px)" srcset="img/placeholder.png">
+                <img class="loading" data-src="img/1.jpg" alt="Image 1">
+            </picture>
+            <picture>
+                <source media="(max-width: 768px)" srcset="img/placeholder.png">
+                <img class="loading" data-src="img/2.jpg" alt="Image 1">
+            </picture>
+            <picture>
+                <source media="(max-width: 768px)" srcset="img/placeholder.png">
+                <img class="loading" data-src="img/3.webp" alt="Image 1">
+            </picture>
+            <picture>
+                <source media="(max-width: 768px)" srcset="img/placeholder.png">
+                <img class="loading" data-src="img/4.jpg" alt="Image 1">
+            </picture>
+            <picture>
+                <source media="(max-width: 768px)" srcset="img/placeholder.png">
+                <img class="loading" data-src="img/5.jpg" alt="Image 1">
+            </picture>
+            <picture>
+                <source media="(max-width: 768px)" srcset="img/placeholder.png">
+                <img class="loading" data-src="img/6.jpg" alt="Image 1">
+            </picture>
+        </div>
+        <script src="scripts/lazyload.js"></script>
+    </body>
+</html>
