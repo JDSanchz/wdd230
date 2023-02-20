@@ -83,7 +83,7 @@
         flex-direction: column;
     }
     main div{
-        height:200px;
+        height:300px;
     }
     main #join{
         display: none;
@@ -106,30 +106,33 @@
         bottom:0;
         text-align: center;
       }
-      #locat {
-        font-size: 24px;
-        font-weight: bold;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-    
-    #weather {
+    #weather{
         text-align: center;
         font-family: Arial, sans-serif;
         color: #333;
         border-radius: 20px;
-        background-color: #cac7ff;
+        background-color: #dadada;
     }
-    
+    #weather p{
+        font-size: 15px;
+    }
     #wimage {
         width: 100px;
         height: 100px;
         margin: 0 auto 20px;
     }
-    
-    #temperature {
-        font-size: 18px;
+    #locat {
+        font-size: 10px;
         font-weight: bold;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #temperature{
+        font-size: 10px;
+    }
+    
+    #event{
+        height: 400px;
     }
     
 }

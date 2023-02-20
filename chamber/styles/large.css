@@ -367,7 +367,8 @@ font-size: 35px;
 #hero #wel {
     color: #ffffff;
     font-size: 70px;
-    padding-top: 15px;
+    background-color: #3c354e;
+    padding: 10px 5px;
     text-shadow: 4px 4px 10px rgb(50, 51, 54);
     position: absolute;
     top: 20%;
