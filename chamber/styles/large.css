@@ -399,3 +399,32 @@ font-size: 35px;
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*DISCOVER PAGE*/
+/* Select the main element and set its display to flex */
+.dislazy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Select all img elements within the main element and set their max-width to 100% to prevent them from overflowing */
+.dislazy img {
+    max-width: 70%;
+  }
+  
+  /* Select all p elements within the main element and set their margin to 0 to remove any default margins */
+.dislazy p {
+    margin: 8px;
+    font-size: 32px;
+  }
+  
+  .lazy {
+    opacity: 0;
+    transition: opacity 1.3s;
+  }
+  
+  .lazy.loaded {
+    opacity: 1;
+  }
+  
