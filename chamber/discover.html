@@ -8,16 +8,58 @@
     <link href="styles/small.css" rel="stylesheet" />
   </head>
   <body>
+    <header class="header">
+      <nav class="navbar" id="navi">
+          <a href="#" class="nav-logo"><img id="logo" alt="Rexburg Chamber Logo Full Version" src="images/Rexburg-logos_transparent.webp"></a>
+          <div class ="media">
+              <a href="https://www.linkedin.com/in/jesusdelbarrios/" target="_blank"><img onload="displayfooter()" src="images/link.png" alt="Linkedin Logo"></a>
+              <a href="https://github.com/JDSanchz" target="_blank"><img src="images/git.png" alt="Github Logo"></a>
+          </div>
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="discover.html" class="nav-link">Discover</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Directory</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Join</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+              </li>
+          </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+          <div class = "date"><p id="today"></p></div>
+      </nav>
+</header>
     <main class="dislazy">
+      <p id="visitdate">Last Visit</p>
       <img src="images/placeholder.png" data-src="images/1dis.webp" alt="Rexburg is Great" class="lazy">
       <p>Experience the charm of Rexburg, Idaho from a bird's-eye view with this stunning drone image. From lush greenery to quaint neighborhoods, Rexburg's beauty is undeniable, inviting you to explore all it has to offer.</p>
-
+      <img  src="images/placeholder.png" data-src="images/stapop.png" alt="Rexburg Population" class="lazy">
       <img  src="images/placeholder.png" data-src="images/2dis.jpg" alt="Nature Trail in Rexburg" class="lazy">
       <p>Take a stroll on the picturesque Cress Creek Nature Trail in Rexburg, Idaho, and immerse yourself in the natural beauty of the area. Surrounded by lush vegetation and tranquil waters, this peaceful trail is a must-visit for nature lovers.</p>
 
       <img  src="images/placeholder.png" data-src="images/3dis.jpg" alt="Great Outdoors" class="lazy">
       <p>Escape to the great outdoors of Rexburg, Idaho and discover the stunning landscapes that await. From majestic mountains to serene lakes and rivers, the natural beauty of this area is sure to leave you in awe and inspire your next adventure</p>
+      <p>
+        Some curious facts about Rexburg, Idaho:<br>
 
+-Rexburg is known as the "Gateway to Yellowstone" due to its proximity to the famous Yellowstone National Park. It is only about an hour and a half drive from Rexburg to the west entrance of the park.
+<br> 
+-Brigham Young University-Idaho, one of the largest private universities in the state, is located in Rexburg. The university is affiliated with The Church of Jesus Christ of Latter-day Saints and has a student population of over 20,000.
+<br> 
+-The Rexburg Tornado of 2008 was one of the most devastating natural disasters in the city's history. The tornado, which was rated an EF2, destroyed many buildings and homes in the city and caused millions of dollars in damage.
+<br> 
+-Rexburg is known for its large population of young families. In fact, the median age of residents in Rexburg is just 22 years old, making it one of the youngest cities in the United States.
+<br> 
+-The city is home to the Legacy Flight Museum, which houses a collection of historic military aircraft, including planes from World War II and the Vietnam War. The museum also hosts airshows and other events throughout the year.
+      </p>
       <img  src="images/placeholder.png" data-src="images/4dis.jpg" alt="Pumpkin Patches" class="lazy">
       <p>Fall has arrived at the pumpkin patches of Rexburg, Idaho. Immerse yourself in the vibrant colors and festive atmosphere, where pumpkins of all shapes and sizes await to be carved, decorated, and taken home to be enjoyed as a quintessential autumn decoration.</p>
 
@@ -25,5 +67,7 @@
       <p>Unleash your inner adventurer and explore the best city parks in Rexburg, Idaho. From tranquil walking paths to exciting playgrounds, these parks provide a natural oasis in the heart of the city. With expansive green spaces, scenic views, and diverse amenities, you're sure to find an activity that speaks to your inner nature lover and outdoor enthusiast.</p>
     </main>
     <script src="scripts/lazy.js"></script>
+    <script src="scripts/chamber.js"></script>
+<script src="scripts/windchill.js"></script>
   </body>
 </html>

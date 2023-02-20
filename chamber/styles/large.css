@@ -406,11 +406,18 @@ font-size: 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto; /* to center the div horizontally */
+    max-width: 70%; /* to limit the width of the div */
   }
-  
   /* Select all img elements within the main element and set their max-width to 100% to prevent them from overflowing */
 .dislazy img {
-    max-width: 70%;
+    width: 700px;
+    filter: grayscale(100%);
+    transition: all 1s ease;
+  }
+
+  .dislazy img:hover {
+    filter: grayscale(0%);
   }
   
   /* Select all p elements within the main element and set their margin to 0 to remove any default margins */
@@ -421,7 +428,7 @@ font-size: 35px;
   
   .lazy {
     opacity: 0;
-    transition: opacity 1.3s;
+    transition: opacity 1s;
   }
   
   .lazy.loaded {
