@@ -28,3 +28,8 @@ tr:nth-child(even) {
 #empty{
     background-color: rgb(24, 76, 59) ;
 }
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-size: 18px;
+}
