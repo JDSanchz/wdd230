@@ -173,6 +173,10 @@ margin: 20px 0px;
     #joingrid form div{
         height: auto;
     }
+    #joingrid #table-wrapper{
+      margin-top: 20px;
+      max-height: 400px;
+  }
     #thjoinwrapper{
         grid-column: 1/5;
     }
