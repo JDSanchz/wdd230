@@ -149,5 +149,17 @@
     #event{
         height: 400px;
     }
+    .dislazy p {
+        margin: 8px;
+        font-size: 25px;
+      }
+    .dislazy img {
+    width: 700px;
+    filter: none;
+    transition: all 1s ease;
+  }
+    .dislazy img:hover{
+        filter: none;
+    }
     
 }
