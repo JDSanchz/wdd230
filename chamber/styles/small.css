@@ -106,6 +106,21 @@
         bottom:0;
         text-align: center;
       }
+
+      #joinus{
+        height: 40px;
+        width: 30%;
+        border-radius: 12px;
+        position: absolute;
+        top: 80%;
+        right: 35%;
+        background-color:#b23462;
+    }
+    #joinus p{
+        font-size: 25px;
+        padding: 5px;
+        font-weight: bold;
+    }
     #weather{
         text-align: center;
         font-family: Arial, sans-serif;

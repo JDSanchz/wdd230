@@ -19,7 +19,7 @@ async function getWeather() {
         }
   
         const wimage = document.getElementById("wimage");
-        if (temperature < 15) {
+        if (temperature < 16) {
           wimage.src = "images/freezing.png";
         } else if (temperature >= 16 && temperature < 42) {
           wimage.src = "images/cold.png";
