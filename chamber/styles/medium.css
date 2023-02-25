@@ -84,7 +84,6 @@
         grid-template-rows: repeat(5,1fr);
     }
     main div{
-        background-color: #ded2ff;
         margin: 2px;
         font-size: 20px;
         height: 400px;
@@ -215,6 +214,148 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
-    
+#joingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-height: none;
+    min-height: none;
+    grid-template-rows: 1fr;
+}
+#joingrid div{
+    height: auto;
+}
+#form-wrapper{
+    grid-column: 1/2;
+      }
+#table-wrapper{
+    margin-top: 50%;
+grid-column: 2/3;
+  }
+#thjoinwrapper{
+    grid-column: 1/5;
+}
+#thjoinwrapper img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 20px;
+}
+#thjoin{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+   
+}
+  form {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #2699FB;
+    box-shadow: 0 0 10px #2699FB;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #2699FB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0077E0;
+  }
+  select {
+    font-size: 18px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #444;
+    border: 2px solid #5b5b5b;
+  }
+  
+  th {
+    background-color: #8d6cff;
+    color: #fff;
+    padding: 12px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #e6e6ff;
+  }
+  
+  td:first-child {
+    font-weight: bold;
+  }
+  
+  td:last-child {
+    text-align: center;
+  }
+  
+  .cost {
+    color: #8d6cff;
+    font-weight: bold;
+  }
+  
+  .benefits {
+    font-style: italic;
+  }
 
 }

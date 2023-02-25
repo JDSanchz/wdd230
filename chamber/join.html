@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Rexburg Chamber</title>
+    <meta name="author" content="Jesus Del  Barrio" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<meta
+  name="Rexburg Chamber"
+  content="The Rexburg Chamber of Commerce website provides information about local businesses, events, and community resources in the Rexburg, Idaho area." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/Rexburg-favo.ico">
+    <link href="styles/large.css" rel="stylesheet" />
+    <link href="styles/medium.css" rel="stylesheet" />
+    <link href="styles/small.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar" id="navi">
+            <a href="#" class="nav-logo"><img id="logo" alt="Rexburg Chamber Logo Full Version" src="images/Rexburg-logos_transparent.webp"></a>
+            <div class ="media">
+                <a href="https://www.linkedin.com/in/jesusdelbarrios/" target="_blank"><img onload="displayfooter()" src="images/link.png" alt="Linkedin Logo"></a>
+                <a href="https://github.com/JDSanchz" target="_blank"><img src="images/git.png" alt="Github Logo"></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="discover.html" class="nav-link">Discover</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Directory</a>
+                </li>
+                <li class="nav-item">
+                    <a href="join.html" class="nav-link">Join</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class = "date"><p id="today"></p></div>
+        </nav>
+</header>
+<main id="joingrid">
+<div id="form_wrapper">
+    <form method="get" action="thankyou.html">
+    <div>
+      <label for="first-name">First Name:</label>
+      <input type="text" id="first-name" name="first-name" required>
+    </div>
+    <div>
+      <label for="last-name">Last Name:</label>
+      <input type="text" id="last-name" name="last-name" required>
+    </div>
+    <div>
+      <label for="position-title">Position Title:</label>
+      <input type="text" id="position-title" name="position-title" pattern="[A-Za-z\s\-]{7,}" title="Please enter at least 7 alphabetic characters, hyphens, and spaces only">
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="example@example.com" required>
+    </div>
+    <div>
+      <label for="cell-phone">Cell Phone Number:</label>
+      <input type="tel" id="cell-phone" name="cell-phone" required>
+    </div>
+    <div>
+      <label for="business-name">Business Name/Title:</label>
+      <input type="text" id="business-name" name="business-name" required>
+    </div>
+    <div>
+      <label for="membership-level">Membership Level:</label>
+      <select id="membership-level" name="membership-level">
+        <option value="NP Membership">NP Membership</option>
+        <option value="Bronze Membership">Bronze Membership</option>
+        <option value="Silver Membership">Silver Membership</option>
+        <option value="Gold Membership">Gold Membership</option>
+      </select>
+    </div>
+    <div>
+      <label for="business-description">Business Description:</label>
+      <textarea id="business-description" name="business-description"></textarea>
+    </div>
+    <input type="hidden" id="date-time" name="date-time" value="<?=date('Y-m-d H:i:s')?>">
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div id="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Membership Level</th>
+        <th>Cost</th>
+        <th>Benefits</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>NP Membership</td>
+        <td>$0</td>
+        <td>Access to member directory, networking opportunities</td>
+      </tr>
+      <tr>
+        <td>Bronze Membership</td>
+        <td>$10</td>
+        <td>All benefits of NP Membership + discounted event tickets, access to training resources</td>
+      </tr>
+      <tr>
+        <td>Silver Membership</td>
+        <td>$30</td>
+        <td>All benefits of Bronze Membership + free event tickets, featured member spotlight on homepage</td>
+      </tr>
+      <tr>
+        <td>Gold Membership</td>
+        <td>$70</td>
+        <td>All benefits of Silver Membership + premium advertising placement on homepage</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</main>
+<footer>
+    <div id="pres">
+        <img width="50" src="images/Rexburg-fav.webp" alt="Rexburg Chamber Logo"><p class="rcc">Rexburg Chamber of Commerce</p><p class="add">35 N 1st E, Rexburg, ID 83440</p></div>
+    <div id="location"><p>del20012@byui.edu</p><a target="_blank" href="https://goo.gl/maps/b9cWue3HdfcGafiA9">📍 Location Map</a></div>
+    <div id="info">    <h4 id="last-bar">This is where my info goes</h4></div>
+</footer>
+<script src="scripts/chamber.js"></script>
+<script src="scripts/windchill.js"></script>
+</body>
+</html>
