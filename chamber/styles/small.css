@@ -168,7 +168,7 @@ flex-direction: column;
 margin: 20px 0px;
     }
     #joingrid div{
-        height: 500px;
+        min-height: 650px;
     }
     #joingrid form div{
         height: auto;
