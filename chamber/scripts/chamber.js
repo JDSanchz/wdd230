@@ -26,11 +26,11 @@ date = new Date();
 document.querySelector('#today').innerHTML= weekday[date.getDay()] + ", " + date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear();
 
 
-function displayfooter(){
+
 let fyear = new Date().getFullYear();
 let currentdate = document.lastModified;
 document.querySelector('#last-bar').textContent =  '©' + fyear +"  Rexburg Chamber  " + "|  Jesus Del Barrio  "+"  | WDD 230 "+`|      Last Modification: ${currentdate}`;
-}
+
 const dayconf = 6
 const banner = document.getElementById("banner");
 const today = new Date();
