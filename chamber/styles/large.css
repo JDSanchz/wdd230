@@ -438,7 +438,6 @@ font-size: 35px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-height: none;
-    min-height: none;
     grid-template-rows: 1fr;
 }
 #form-wrapper{
