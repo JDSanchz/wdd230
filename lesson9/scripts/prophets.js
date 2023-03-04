@@ -2,7 +2,7 @@ const url = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophet
 
 const displayProphets = (prophets) => {
     const cards = document.querySelector('div.cards'); // select the output container element
-  
+    cards.innerHTML = '';
     prophets.forEach((prophet) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
@@ -40,3 +40,21 @@ async function getProphetData() {
 }
 
 getProphetData();
+const filterButton = document.getElementById('filter');
+console.log(filterButton);
+filterButton.addEventListener('click', filterProphetsByServiceYears);
+
+
+async function filterProphetsByServiceYears() {
+    const response = await fetch(url);
+    const data = await response.json();
+    const filteredProphets = data.prophets.filter((prophet) => {
+      const servedYears = prophet.length;
+      return servedYears >= 10;
+    });
+    displayProphets(filteredProphets);
+  }
+  const resetButton = document.querySelector('#reset-button');
+  resetButton.addEventListener('click', async () => {
+    await getProphetData();
+  });

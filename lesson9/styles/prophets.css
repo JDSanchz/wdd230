@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
 /* Set up the CSS grid container for the cards */
 .cards {
     display: grid;
@@ -63,4 +67,24 @@
     text-decoration: underline;
   }
   
+  button {
+    background-color: #F8F8F8;
+    border: 2px solid #EFEFEF;
+    border-radius: 4px;
+    color: #555;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #dddddd;
+    border-color: #DDD;
+    color: #333;
+    cursor: pointer;
+  }
   
