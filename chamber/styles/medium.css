@@ -314,12 +314,13 @@ grid-column: 2/3;
     margin: 0 auto;
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
+    font-size: 1.5em;
     color: #444;
     border: 2px solid #5b5b5b;
   }
   
   th {
-    background-color: #8d6cff;
+    background-color:  #5634ee;
     color: #fff;
     padding: 12px;
     font-weight: bold;

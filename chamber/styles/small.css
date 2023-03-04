@@ -261,11 +261,10 @@ margin: 20px 0px;
         background-color: #f2f2f2;
         font-family: Arial, sans-serif;
         color: #444;
-        font-size: 12px;
       }
       
       th {
-        background-color: #8d6cff;
+        background-color: #463cd1;
         color: #fff;
         padding: 12px;
         font-weight: bold;
@@ -301,6 +300,5 @@ margin: 20px 0px;
       .benefits {
         font-style: italic;
       }
-    
-    
+
 }

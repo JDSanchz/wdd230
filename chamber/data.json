@@ -1,0 +1,85 @@
+{
+  "companies": [
+    {
+      "name": "Pizza Pie Cafe",
+      "address": "123 Main Street, Anytown, USA",
+      "phone": "(555) 555-1234",
+      "website": "http://www.abccorp.com",
+      "image": "images/pizza.png",
+      "membership": "gold",
+      "description": "ABC Corporation is a leading provider of innovative solutions in the tech industry."
+    },
+    {
+      "name": "Red Rabbit Grill",
+      "address": "456 Elm Street, Anytown, USA",
+      "phone": "(555) 555-5678",
+      "website": "http://www.xyzent.com",
+      "image": "images/red.jpg",
+      "membership": "silver",
+      "description": "XYZ Enterprises is a global leader in providing cutting-edge technology solutions."
+    },
+    {
+      "name": "BYU-Idaho",
+      "address": "789 Oak Street, Anytown, USA",
+      "phone": "(555) 555-9012",
+      "website": "http://www.123inc.net",
+      "image": "images/byu.png",
+      "membership": "bronze",
+      "description": "123 Inc. is a provider of high-quality products and services for businesses of all sizes."
+    },
+        {
+      "name": "Sonic Drive-In",
+      "address": "123 Main Street, Anytown, USA",
+      "phone": "(555) 555-1234",
+      "website": "http://www.abccorp.com",
+      "image": "images/sonic.jpg",
+      "membership": "gold",
+      "description": "ABC Corporation is a leading provider of innovative solutions in the tech industry."
+    },
+    {
+      "name": "Fat-Cats",
+      "address": "456 Elm Street, Anytown, USA",
+      "phone": "(555) 555-5678",
+      "website": "http://www.xyzent.com",
+      "image": "images/fat.jpg",
+      "membership": "silver",
+      "description": "XYZ Enterprises is a global leader in providing cutting-edge technology solutions."
+    },
+    {
+      "name": "Heber Hatches",
+      "address": "789 Oak Street, Anytown, USA",
+      "phone": "(555) 555-9012",
+      "website": "http://www.123inc.net",
+      "image": "images/heber.jpg",
+      "membership": "bronze",
+      "description": "123 Inc. is a provider of high-quality products and services for businesses of all sizes."
+    },
+        {
+      "name": "Paramount 5",
+      "address": "123 Main Street, Anytown, USA",
+      "phone": "(555) 555-1234",
+      "website": "http://www.abccorp.com",
+      "image": "images/para.png",
+      "membership": "gold",
+      "description": "ABC Corporation is a leading provider of innovative solutions in the tech industry."
+    },
+    {
+      "name": "Guerrero's Mexican Food",
+      "address": "456 Elm Street, Anytown, USA",
+      "phone": "(555) 555-5678",
+      "website": "http://www.xyzent.com",
+      "image": "images/taqueria.jpeg",
+      "membership": "silver",
+      "description": "XYZ Enterprises is a global leader in providing cutting-edge technology solutions."
+    },
+    {
+      "name": "Sprinkler Medix",
+      "address": "789 Oak Street, Anytown, USA",
+      "phone": "(555) 555-9012",
+      "website": "http://www.123inc.net",
+      "image": "images/sprinkler.png",
+      "membership": "bronze",
+      "description": "123 Inc. is a provider of high-quality products and services for businesses of all sizes."
+    }
+    ]
+}
