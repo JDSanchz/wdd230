@@ -1,8 +1,8 @@
 /* Set variables for color palette */
 :root {
-    --primary-color: #816E94;
+    --primary-color: #f4e8ff;
     --secondary-color: #74226C;
-    --accent-color: #8CC7A1;
+    --accent-color: #526b5b;
   }
   
   /* Reset default browser styles */
@@ -15,7 +15,7 @@
   /* Apply styles to body */
   body {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: sans-serif;
   }
   
