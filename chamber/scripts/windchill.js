@@ -26,6 +26,9 @@ async function getWeather() {
         } else if (temperature >= 42) {
           wimage.src = "images/sunny.png";
         }
+        const condition = data.current.condition.text;
+        const wconditionElement = document.getElementById("wcondition");
+        wconditionElement.innerHTML = condition;
       });
   }
   
