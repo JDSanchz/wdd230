@@ -13,14 +13,14 @@ async function getData() {
 function displayDataAsCards(data) {
   const directory = document.querySelector('#business-directory');
   directory.innerHTML = ''; // clear any existing content
-
   data.forEach(company => {
+    mem = company.membership.toUpperCase();
     const card = document.createElement('div');
     card.classList.add('card');
     card.innerHTML = `
       <h2>${company.name}</h2>
       <img src="${company.image}" alt="This the logo for ${company.name}" loading="lazy"/>
-      <p>${company.description}</p>
+      <p>${mem}</p>
       <ul>
         <li><strong>Address:</strong> ${company.address}</li>
         <li><strong>Phone:</strong> ${company.phone}</li>
@@ -43,7 +43,7 @@ function displayDataAsList(data) {
     const tableHeader = document.createElement('tr');
     tableHeader.innerHTML = `
       <th>Name</th>
-      <th>Description</th>
+      <th>Membership</th>
       <th>Address</th>
       <th>Phone</th>
       <th>Website</th>
@@ -55,7 +55,7 @@ function displayDataAsList(data) {
       const tableRow = document.createElement('tr');
       tableRow.innerHTML = `
         <td>${company.name}</td>
-        <td>${company.description}</td>
+        <td>${company.membership}</td>
         <td>${company.address}</td>
         <td>${company.phone}</td>
         <td>${company.website}</td>
