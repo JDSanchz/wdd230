@@ -52,10 +52,11 @@ function displayDataAsList(data) {
   
     // Add data to table rows
     data.forEach(company => {
+      mem = company.membership.toUpperCase();
       const tableRow = document.createElement('tr');
       tableRow.innerHTML = `
         <td>${company.name}</td>
-        <td>${company.membership}</td>
+        <td>${mem}</td>
         <td>${company.address}</td>
         <td>${company.phone}</td>
         <td>${company.website}</td>
