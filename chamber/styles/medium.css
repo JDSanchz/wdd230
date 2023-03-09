@@ -287,7 +287,7 @@ grid-column: 2/3;
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #2699FB;
+    background-color: #2c1d7c;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -297,7 +297,7 @@ grid-column: 2/3;
   }
   
   input[type="submit"]:hover {
-    background-color: #0077E0;
+    background-color: #4430b4;
   }
   select {
     font-size: 18px;
