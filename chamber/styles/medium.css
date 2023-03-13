@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
     .nav-menu {
         position: fixed;
         left: 100%;
@@ -22,6 +22,19 @@
         grid-template-rows: 75% 25%;
         height: 150px
     }
+    .nav-link:hover {
+       color: #4430b4;
+       padding: 5px 5px 10px 5px;
+      }
+      .nav-link::before {
+       display: none;
+       transition: 0.2s ease-in-out; 
+      }
+      
+      .nav-link:hover::before {
+        display: none;
+      }
+      
     .media{
         grid-column: 2/3;
 

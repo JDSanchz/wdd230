@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
 * {
@@ -62,13 +61,29 @@ a {
 }
 
 .nav-link{
-    font-size: 2.5rem;
-    font-weight: 400;
-    color: #475569;
+  position: relative;
+  font-size: 2.5rem;
+  color: #475569;
 }
 
 .nav-link:hover{
-    color: #4c00ff;
+  color: white;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: -20%; /* Update the position to bottom */
+  left: -20%;
+  width: 140%; /* Set the initial width to 100% */
+  height: 0; /* Set the initial height to 0 */
+  background-color:  #5a4ae3;
+  z-index: -1;
+  transition: height 0.2s ease-in-out; /* Update the transition property to height */
+}
+
+.nav-link:hover::before {
+  height: 140%;
 }
 
 .nav-logo {
