@@ -199,8 +199,7 @@ main div{
     color: white;
     border-radius: 20px;
 }
-#spot div{
-    background-color: #c2b6e2; 
+#spot div{ 
     height: 33%;
     background-color: #4c00ff;
     text-align: center;
@@ -293,7 +292,7 @@ font-size: 35px;
 #news{
     grid-column: 2/4;
     grid-row: 3/4;
-    background-color:     #ffe9b3;
+    background-color: #F7EBFF;
     text-align: center;
     font-family: Arial, sans-serif;
     color: black;
