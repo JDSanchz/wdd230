@@ -79,7 +79,7 @@ a {
   height: 0; /* Set the initial height to 0 */
   background-color:  #5a4ae3;
   z-index: -1;
-  transition: height 0.2s ease-in-out; /* Update the transition property to height */
+  transition: height 0.12s ease-in-out; /* Update the transition property to height */
 }
 
 .nav-link:hover::before {
