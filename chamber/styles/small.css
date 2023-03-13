@@ -64,6 +64,7 @@
         display: block;
         cursor: pointer;
         grid-column: 3/4;
+        padding-right: 30px;
     }
     .bar {
         display: block;
