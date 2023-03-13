@@ -164,6 +164,16 @@
         grid-column: 1/4;
         grid-row: 2/3;
     }
+    #news h4{
+        text-align: center;
+        margin-top: 16px;
+        font-size: 28px;
+      }
+      #news p{
+        text-align: justify;
+        padding: 30px 35px 15px 35px;
+        font-size: 22px;
+      }
     #class3{
         display: none;
     }

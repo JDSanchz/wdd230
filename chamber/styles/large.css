@@ -290,13 +290,33 @@ font-size: 35px;
     border-radius: 10px;
 }
 #news{
-    grid-column: 2/4;
-    grid-row: 3/4;
-    background-color: #F7EBFF;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    color: black;
-    border-radius: 20px;
+  grid-column: 2/4;
+  grid-row: 3/4;
+  background-color: #F7EBFF;
+  font-family: Arial, sans-serif;
+  color: black;
+  border-radius: 20px;
+  border-style: inset;
+  border-width: 7px;
+  border-color:#d8adff;
+}
+
+#news h4{
+  text-align: center;
+  margin-top: 16px;
+  font-size: 26px;
+}
+#news p{
+  text-align: justify;
+  padding: 30px 35px 15px 35px;
+  font-size: 20px;
+}
+#news hr {
+  width: 65%;
+  margin: 0 auto;
+  height: 2px;
+  border: none;
+background-color:  #d7c9e0;
 }
 
 #banner {

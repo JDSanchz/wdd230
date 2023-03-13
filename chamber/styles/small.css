@@ -137,6 +137,28 @@
         padding: 5px;
         font-weight: bold;
     }
+    #news{
+      grid-column: 2/4;
+      grid-row: 3/4;
+      background-color: #F7EBFF;
+      font-family: Arial, sans-serif;
+      color: black;
+      border-radius: 20px;
+      border-style: inset;
+      border-width: 7px;
+      border-color:#d8adff;
+      min-height: 390px;
+    }
+    #news h4{
+      text-align: center;
+      margin-top: 16px;
+      font-size: 20px;
+    }
+    #news p{
+      text-align: justify;
+      padding: 22px 35px 15px 35px;
+      font-size: 16px;
+    }
     #weather{
         text-align: center;
         font-family: Arial, sans-serif;
