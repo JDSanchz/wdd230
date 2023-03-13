@@ -1,7 +1,7 @@
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
     .nav-menu {
         position: fixed;
-        left: 100%;
+        right: 100%;
         top: 10.5rem;
         flex-direction: column;
         background-color: #fff;
@@ -13,7 +13,7 @@
             0 10px 27px rgba(0, 0, 0, 0.05);
     }
     .nav-menu.active {
-        left: 0;
+        right: 0;
         z-index: 5;
     }
     .navbar{
