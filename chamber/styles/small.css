@@ -209,26 +209,40 @@
     #weather{
         text-align: center;
         font-family: Arial, sans-serif;
-        color: #333;
+        color: #ffffff;
         border-radius: 20px;
-        background-color: #dadada;
+        background-color: #5A4AE3;
     }
     #weather p{
-        font-size: 15px;
+        font-size: 20px;
+      margin-bottom: 2px;
+    }
+    #weather hr{
+      background-color: #eedbff;
+      width: 55%;
+      border: none;
+      height: 2px;
+      margin: 0 auto;
+      text-align: center;
+    
     }
     #wimage {
         width: 100px;
         height: 100px;
         margin: 0 auto 20px;
+  
     }
-    #locat {
-        font-size: 10px;
+    #weather #locat {
+        font-size: 25px;
         font-weight: bold;
         margin-bottom: 10px;
         margin-top: 10px;
+        color: white;
+      
     }
-    #temperature{
-        font-size: 10px;
+    #weather #temperature{
+        font-size: 40px;
+        color: #ffee39;
     }
     #hero #wel {
       color: #ffffff;
