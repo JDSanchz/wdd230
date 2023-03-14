@@ -244,6 +244,7 @@
         font-size: 40px;
         color: #ffee39;
     }
+
     #hero #wel {
       color: #ffffff;
       font-size: 30px;
@@ -263,17 +264,16 @@
     }
     .dislazy p {
         margin: 8px;
-        font-size: 25px;
+        font-size: 17px;
       }
     .dislazy img {
-    width: 700px;
+    width: 100%;
     filter: none;
     transition: all 1s ease;
   }
     .dislazy img:hover{
         filter: none;
     }
-
     #joingrid{
 display: flex;
 flex-direction: column;
