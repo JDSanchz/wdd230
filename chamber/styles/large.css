@@ -184,6 +184,46 @@ main{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+#contactsite {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-column: 1/5;
+  grid-row: 1/4;
+  height: 700px;
+  background-color: #fdf4ff;
+  border-radius: 20px;
+  border-style: inset;
+  border-color: #e8c4f3;
+  border-width: 5px;
+  padding: 30px 20px;
+}
+
+.contact-form {
+  flex-basis: 50%;
+  margin-right: 30px;
+}
+.contact-form #contact-form-button{
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+}
+.contact-form #contact-form-button:hover{
+  font-size: 20px;
+}
+
+.contact-info {
+  flex-basis: 50%;
+  text-align: center;
+  margin-top: 40px;
+}
+.contact-info p,li{
+  font-size: 30px;
+}
 main div{
     margin: 2px;
     font-size: 20px;
@@ -193,7 +233,7 @@ main div{
     grid-row: 1/4;
     display: flex;
     flex-direction: column;
-    background-color: #1f15b3;
+    background-color: #ffffff;
     text-align: center;
     font-family: Arial, sans-serif;
     color: white;
@@ -201,15 +241,26 @@ main div{
 }
 #spot div{ 
     height: 33%;
-    background-color: #4c00ff;
+    background-color: #5a4ae3;
     text-align: center;
     font-family: Arial, sans-serif;
     color: white;
     border-radius: 20px;
-    margin: 8px 8px 0px 8px;
+    margin: 0px 0px 12px 0px;
+    font-size: 22px;
 }
-#spot #class3{
-    margin: 8px 8px 8px 8px;
+#spot img{
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  object-fit: center;
+  border-radius: 20px;
+}
+#spot h4{
+  margin: 10px 0px 7px 0px;
+}
+#spot p{
+  margin: 10px 10px 10px 10px;
 }
 #event{
     display: flex;

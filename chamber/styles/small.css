@@ -101,6 +101,39 @@
     main div{
         height:300px;
     }
+    #contactsite {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      min-width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      grid-column: 1/5;
+      grid-row: 1/4;
+      height: 1000px;
+      background-color: #fdf4ff;
+      border-radius: 20px;
+      border-style: inset;
+      border-color: #e8c4f3;
+      border-width: 5px;
+      padding: 30px 28px;
+    }
+    .contact-form {
+    width: 100%;
+    }
+    .contact-form h2{
+      padding-left: 4%;
+      padding-bottom: 3%;
+    }
+    .contact-info {
+      margin-top: 40px;
+      width: 100%;
+      text-align: center;
+    }
+    .contact-info p,li{
+      font-size: 20px;
+    }
     main #join{
         display: none;
     }
@@ -111,7 +144,20 @@
         height: 40px;
         text-align: center;
     }
-        
+    #spot {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    
+    #spotlight1, #spotlight2 {
+      flex: 1;
+    }
+    
+    #spotlight3 {
+      display: none;
+    }
       #banner p {
         font-size: 16px;
         position: relative;

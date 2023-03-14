@@ -15,7 +15,7 @@
       "phone": "(555) 555-5678",
       "website": "http://www.xyzent.com",
       "image": "images/red.jpg",
-      "membership": "silver",
+      "membership": "gold",
       "description": "XYZ Enterprises is a global leader in providing cutting-edge technology solutions."
     },
     {
@@ -24,7 +24,7 @@
       "phone": "(555) 555-9012",
       "website": "http://www.123inc.net",
       "image": "images/byu.png",
-      "membership": "bronze",
+      "membership": "gold",
       "description": "123 Inc. is a provider of high-quality products and services for businesses of all sizes."
     },
         {
@@ -60,7 +60,7 @@
       "phone": "(555) 555-1234",
       "website": "http://www.abccorp.com",
       "image": "images/para.png",
-      "membership": "gold",
+      "membership": "bronze",
       "description": "ABC Corporation is a leading provider of innovative solutions in the tech industry."
     },
     {
@@ -69,7 +69,7 @@
       "phone": "(555) 555-5678",
       "website": "http://www.xyzent.com",
       "image": "images/taqueria.jpeg",
-      "membership": "silver",
+      "membership": "bronze",
       "description": "XYZ Enterprises is a global leader in providing cutting-edge technology solutions."
     },
     {
@@ -78,7 +78,7 @@
       "phone": "(555) 555-9012",
       "website": "http://www.123inc.net",
       "image": "images/sprinkler.png",
-      "membership": "bronze",
+      "membership": "silver",
       "description": "123 Inc. is a provider of high-quality products and services for businesses of all sizes."
     }
     ]
