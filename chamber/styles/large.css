@@ -656,11 +656,7 @@ grid-column: 2/3;
   td:first-child {
     font-weight: bold;
   }
-  
-  td:last-child {
-    text-align: center;
-  }
-  
+
   .cost {
     color: #8d6cff;
     font-weight: bold;
@@ -715,6 +711,10 @@ button:hover {
   justify-content: center;
   margin-top: 2em;
   margin-bottom: 2em;
+}
+#business-directory table {
+  font-size: 30px;
+  text-align: left;
 }
 
 /* Style the directory cards */
