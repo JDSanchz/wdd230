@@ -176,27 +176,18 @@
 
 
       #joinus{
-        height: 70px;
         width: 33%;
         border-radius: 12px;
         position: absolute;
         bottom:0;
-        font-size: 30px;
-        padding: 20px 50px;
+        font-size: 15px;
+        padding: 18px 10px;
         left:50%;
         background-color: #b23462;
         transform: translate(-50%, -50%);
     }
     #joinus:hover{
-      height: 70px;
-      width: 33%;
-      border-radius: 12px;
-      position: absolute;
-      bottom:0;
-      padding: 20px 50px;
-      left:50%;
-      background-color: #b23462;
-      transform: translate(-50%, -50%);
+display: none;
     }
     #news{
       grid-column: 2/4;
