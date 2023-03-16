@@ -374,6 +374,12 @@ margin: 20px 0px;
         font-family: Arial, sans-serif;
         color: #444;
       }
+      #business-directory table {
+        font-size: 10px;
+      }
+      #business-directory table td {
+        height: 100px;
+      }
       
       th {
         background-color: #463cd1;

@@ -222,7 +222,7 @@ main{
   margin-top: 40px;
 }
 .contact-info p,li{
-  font-size: 30px;
+  font-size: 20px;
 }
 main div{
     margin: 2px;
@@ -738,8 +738,12 @@ button:hover {
 }
 
 .card p {
-  font-size: 1.8em;
-  margin: 1em;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #332C49;
+  width: 100%;
+  color: whitesmoke;
+  padding: 3px 2px;
 }
 
 .card ul {

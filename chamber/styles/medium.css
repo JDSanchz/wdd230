@@ -151,6 +151,9 @@
         height: 100px;
         margin: 20px 5px 15px 5px;
     }
+    #business-directory table {
+      font-size: 20px;
+    }
     
     #weather #temperature {
         font-size: 50px;
