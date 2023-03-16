@@ -374,11 +374,16 @@ margin: 20px 0px;
         font-family: Arial, sans-serif;
         color: #444;
       }
-      #business-directory table {
-        font-size: 10px;
+      #business-directory{
+        width: 100%;
       }
+      #business-directory table {
+        font-size: 13px;
+        width: 100%;
+      }
+      
       #business-directory table td {
-        height: 100px;
+        height: 80px;
       }
       
       th {
