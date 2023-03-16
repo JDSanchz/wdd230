@@ -90,9 +90,14 @@
         flex-direction: column;
         height: 400px;
         align-items: center;
+        font-size: 16px;
     }
     footer #location{
         margin:90px 0px 40px;
+    }
+    footer #pres{
+      display: grid;
+      grid-template-columns: 28% 72%;
     }
     main{
         display: flex;
@@ -169,19 +174,29 @@
         text-align: center;
       }
 
+
       #joinus{
-        height: 40px;
-        width: 30%;
+        height: 70px;
+        width: 33%;
         border-radius: 12px;
         position: absolute;
-        top: 80%;
-        right: 35%;
-        background-color:#b23462;
+        bottom:0;
+        font-size: 30px;
+        padding: 20px 50px;
+        left:50%;
+        background-color: #b23462;
+        transform: translate(-50%, -50%);
     }
-    #joinus p{
-        font-size: 25px;
-        padding: 5px;
-        font-weight: bold;
+    #joinus:hover{
+      height: 70px;
+      width: 33%;
+      border-radius: 12px;
+      position: absolute;
+      bottom:0;
+      padding: 20px 50px;
+      left:50%;
+      background-color: #b23462;
+      transform: translate(-50%, -50%);
     }
     #news{
       grid-column: 2/4;
@@ -270,23 +285,40 @@
     width: 100%;
     filter: none;
     transition: all 1s ease;
+    margin-bottom: 10px;
   }
     .dislazy img:hover{
         filter: none;
     }
-    #joingrid{
-display: flex;
-flex-direction: column;
-margin: 20px 0px;
+    #joingrid {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 10px 0px 20px;
+      height: 100%;
+      justify-content: space-between;
     }
-    #joingrid form div{
+    
+    #joingrid form div {
       height: auto;
-  }
-    #joingrid #table-wrapper{
-      margin-top: 50px;
-      max-height: 500px;
-      margin-bottom: 70px;
-  }
+    }
+    #joingrid #form_wrapper{
+      height: 900px;
+      margin-bottom: 40px;
+    }
+    #joingrid #form_wrapper form{
+      height: 100%;
+    }
+    #joingrid #table-wrapper {
+      margin-top: 10px;
+      padding-top: 10px;
+      height: 800px;
+    }
+    #joingrid table {
+      font-size: 20px;
+      height: 100%;
+    }
+  /*Thank you Page*/
     #thjoinwrapper{
         grid-column: 1/5;
     }
@@ -302,7 +334,15 @@ margin: 20px 0px;
         font-size: 40px;
         margin-bottom: 25px;
        
-    }
+    }#factos li{
+      list-style:disc ;
+      margin-left: 10px;color: rgb(78, 55, 131);
+      font-size: 16px;
+      margin-bottom: 10px;
+      }
+      #factos :last-child{
+        margin-bottom: 40px;
+      }
       form {
         margin: 0;
         padding: 20px;
@@ -378,7 +418,7 @@ margin: 20px 0px;
         width: 100%;
       }
       #business-directory table {
-        font-size: 13px;
+        font-size: 10px;
         width: 100%;
       }
       
@@ -423,5 +463,6 @@ margin: 20px 0px;
       .benefits {
         font-style: italic;
       }
+
 
 }

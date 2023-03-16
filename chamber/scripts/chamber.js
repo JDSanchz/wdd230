@@ -31,7 +31,7 @@ let fyear = new Date().getFullYear();
 let currentdate = document.lastModified;
 document.querySelector('#last-bar').textContent =  '©' + fyear +"  Rexburg Chamber  " + "|  Jesus Del Barrio  "+"  | WDD 230 "+`|      Last Modification: ${currentdate}`;
 
-const dayconf = 6
+const dayconf = 2
 const banner = document.getElementById("banner");
 const today = new Date();
 const isTuesday = today.getDay() === dayconf;

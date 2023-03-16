@@ -223,13 +223,26 @@
     }
 
 #joinus{
-    height: 60px;
+    height: 85px;
     width: 33%;
     border-radius: 12px;
     position: absolute;
-    top: 80%;
-    right: 45px;
+    bottom:0;
+    padding: 20px 50px;
+    left:50%;
     background-color: #b23462;
+    transform: translate(-50%, -50%);
+}
+#joinus:hover{
+  height: 85px;
+  width: 33%;
+  border-radius: 12px;
+  position: absolute;
+  bottom:0;
+  padding: 20px 50px;
+  left:50%;
+  background-color: #b23462;
+  transform: translate(-50%, -50%);
 }
 #hero #wel {
     color: #ffffff;
@@ -240,10 +253,6 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-#joinus p{
-    font-size: 35px;
-    padding: 10px;
 }
 
 #hero img{
