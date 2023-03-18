@@ -321,7 +321,7 @@ text-align: center;
     margin-top: 20px;
 }
 #weather p{
-  font-size: 26px;
+  font-size: 23px;
 margin-bottom: 2px;
 }
 #weather #temperature{
@@ -565,7 +565,6 @@ background-color:  #d7c9e0;
     grid-column: 1/5;
     grid-row: 1/4;
     grid-template-columns: 1fr 1fr;
-    max-height: none;
     column-gap: 30px;
     grid-template-rows: 1fr;
 }
